@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   port: 3306,
-  password: '4k4m3g4k1ll1A?',
+  password: '',
   database: 'listatarea_db'
 });
 
