@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const tareaRoutes = require('./routes/tareaRoutes');
-require('./config/db'); // conectar base de datos
+require('./config/db'); 
 
 const app = express();
 app.use(bodyParser.json());
